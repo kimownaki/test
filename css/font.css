@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'NanumSquare';
+	font-weight: 300;
+	src: url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareL.eot);
+	src: url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareL.eot?#iefix) format('embedded-opentype'),  url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareL.woff) format('woff'),  url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareL.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'NanumSquare';
+	font-weight: 400;
+	src: url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareR.eot);
+	src: url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareR.eot?#iefix) format('embedded-opentype'),  url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareR.woff) format('woff'),  url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareR.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'NanumSquare';
+	font-weight: 700;
+	src: url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareB.eot);
+	src: url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareB.eot?#iefix) format('embedded-opentype'),  url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareB.woff) format('woff'),  url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareB.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'NanumSquare';
+	font-weight: 800;
+	src: url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareEB.eot);
+	src: url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareEB.eot?#iefix) format('embedded-opentype'),  url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareEB.woff) format('woff'),  url(https://cdn.rawgit.com/moonspam/NanumSquare/master/NanumSquareEB.ttf) format('truetype');
+}

@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {scroll-behavior: smooth;}
+.italic {font-style: italic;}
+nav.topNav {height:70px; display: block;}
+nav.topNav .navWrap {background-color: #121212; height: 70px; box-sizing: border-box; position: fixed; top: 0; left: 0; width: 100%;  padding: 0 20px; z-index: 100;}
+nav.topNav .navWrap a.logo {display: inline-block; position: absolute;  top: 50%; margin-top: -10px}
+nav.topNav .navWrap a.logo img {width:103px; height: auto;}
+nav.topNav .navWrap .nav-btn {width:22px; height: 26px; position: absolute; right: 20px; top: 50%; margin-top: -11px; background-size: contain; transition:0.3s; z-index: 400;}
+nav.topNav .navWrap .nav-btn-menu {width: 24px; position: absolute; right: 21px; top: 50%; margin-top:14px; z-index: 400; font-size:10px; color:#fff}
+
+nav.topNav .nav-btn span {width:9px; height:9px; background-color:#fff; display:block;  float: left; }
+nav.topNav .nav-btn span:nth-child(2n) {margin-left: 4px;}
+nav.topNav .nav-btn span:nth-child(n+3) {margin-top: 4px;}
+
+nav.topNav .nav-btn.on span:nth-child(3) {transform:rotate(45deg) translate(4px, 9px);transition:0.3s; }
+nav.topNav .nav-btn.on span:nth-child(4) {transform:rotate(135deg) translate(7px, -2px);transition:0.3s;}
+nav.topNav .nav-btn.on span:nth-child(n+3) {transform-origin:center; width:30px; height: 3px; margin: 0; border-radius:10px;}
+nav.topNav .nav-btn.on span:nth-child(-n+2) {display:none; }
+
+/* 슬라이드 메뉴 */
+.topMenuWrap {overflow:hidden; opacity:0; background:rgba(0,0,0,0.9); padding: 0px; position: fixed; top: 70px; left:0; height:100%; z-index: 300; transition:0.3s; width:0%;}
+.topMenuWrap.on {opacity:1; width:100%;}
+.topMenuWrap .topMenu {padding: 0 20px;}
+.topMenuWrap .topMenu li a {display: block; font-size: 22px; color:#fff; font-weight: 300; line-height: 60px; height: 60px; background-size: 25px auto !important; background-position: right 10px top 50% !important; box-sizing: border-box; padding: 0 10px;}
+.topMenuWrap .topMenu li {border-bottom: 1px solid #646464;}
+.topMenuWrap .topMenu li:nth-child(1) a {background: url("/img/menucon07.png") no-repeat;}
+.topMenuWrap .topMenu li:nth-child(2) a {background: url("/img/menucon02.png") no-repeat;}
+.topMenuWrap .topMenu li:nth-child(3) a {background: url("/img/menucon03.png") no-repeat;}
+.topMenuWrap .topMenu li:nth-child(4) a {background: url("/img/menucon04.png") no-repeat;}
+.topMenuWrap .topMenu li:nth-child(5) a {background: url("/img/menucon05.png") no-repeat;}
+.topMenuWrap .topMenu li:nth-child(6) a {background: url("/img/menucon06.png") no-repeat;}
+.topMenuWrap .topMenu li:nth-child(7) a {background: url("/img/menucon01.png") no-repeat;}
+
+body.main main {background-color: #272727; }
+body.main main > section {}
+body.main main > section:not(.lastMenu) img {width:100%; height:auto;}
+body.main main > section:nth-child(6) {padding:0 20px;}
+body.main .footLink {border:none; margin:0;}
+
+.direct-call {background-color: #121212; height: 70px; width: 100%;  padding: 0 20px; box-sizing: border-box; position: fixed; bottom:0; left:0; z-index: 9999;}
+.direct-call a {display: block; height: 100%; line-height: 70px;  font-size: 30px; position: relative; text-align: right; color:#fff;}
+.direct-call a span {position: absolute; left: 0; top: 0; font-size:17px; color:#ad8e6c;}
+
+
+.footLink {padding: 30px 0; font-weight: 300; font-size: 20px; color:#fff; position: relative; border-top: 1px solid #ad8e6c; margin-top: 30px;}
+.footLink .abs {position: absolute; right:0; top: 38px; font-weight: 400;}
+.footLink-info {font-size:11px !important; color:#fff !important; padding-top: 7px;}
+.footLinkMenu {display:grid; grid-template-columns:1fr 1fr 1fr; padding:10px 5px; border-top:1px solid #ad8e6c; border-bottom:1px solid #ad8e6c;}
+.footLinkMenu li {padding:6px;}
+.footLinkMenu li a {color:#fff !important; font-size: 16px; text-align: center; display: block; width: 100%; border: 1px solid #ad8e6c; box-sizing: border-box; padding: 32px 0; border-radius: 10px;}
+.footLinkMenu li a .imgArea {width: 42px; height: 42px; margin: 0px auto; text-align: center; line-height: 32px;}
+.footLinkMenu li a .imgArea img { display: inline-block; vertical-align: middle;}
+.gold {color:#ad8e6c;}
+.gold_bg {background-color:#ad8e6c;}
+
+.footer {padding:18px 0;}
+.footer li {color:#fff; font-size:11px; margin-bottom: 3px;}
+.footer li.sm {font-size: 9px; color:#ad8e6c; letter-spacing: -1px;}
+.footer li.copyright {font-size: 8px; margin-top: 10px;}
+
+
+
+/* sub 01 */
+.sub main {box-sizing: border-box; background-color: #272727; padding: 0 20px 70px 20px;}
+
+.paging {padding-top:50px;}
+.paging .title {font-size:26px; color:#fff; text-align: center;}
+.paging .title .eng {font-size: 15px; font-family: 'Nanum Myeongjo'; color:#ad8e6c; text-transform:uppercase;}
+.paging .title .edge {width: 1px; background-color: #ad8e6c; height: 60px; margin: 25px auto;}
+
+.s01 h1 {font-size:30px; font-weight: 300; color:#ad8e6c; text-align: center;}
+.s01 h2 {font-size: 20px; font-family: 'Nanum Myeongjo'; text-align: center; color:#fff; margin-bottom: 20px;}
+
+
+.invest {}
+.invest dl {border-bottom: 1px solid #ad8e6c; background-size:auto 200px !important; background-position: center top !important; margin-bottom: 30px;color:#fff;}
+.invest dl dt {font-size:24px; font-family: 'TmonMonsori'; color:#fff; margin-bottom: 10px; text-align: center;}
+.invest dl dt img {width: 100%;}
+.invest dl dd.gold {font-weight: 700; margin-bottom:10px;}
+.invest dl dt, .invest dl dd {word-break: keep-all; font-size: 14px; text-align: center;}
+.invest dl dd:not(.gold) {margin-bottom: 30px;}
+.invest dl dd {line-height:20px;}
+.invest dl.inv04 {border: none;}
+
+.roomtype {}
+.roomtype ul.roomtypeTab {display:flex;  border-top: 1px solid #ad8e6c;  border-bottom: 1px solid #ad8e6c; margin-bottom: 40px;} 
+.roomtype ul.roomtypeTab li {flex-grow:1; padding: 10px 0;}
+
+.roomtype ul.roomtypeTab li.ui-state-active,
+.roomtype ul.roomtypeTab li.ui-state-hover {background: #ad8e6c;}
+.roomtype ul.roomtypeTab li.ui-state-active a,
+.roomtype ul.roomtypeTab li.ui-state-hover a {border: none !important; color:#fff;}
+.roomtype ul.roomtypeTab li.ui-state-active + li a,
+.roomtype ul.roomtypeTab li.ui-state-hover + li a {border: none;}
+.roomtype ul.roomtypeTab li a {display: block; font-size: 10px; font-weight: 300; text-align: center; color:#ad8e6c; border-left:1px solid #ad8e6c; box-sizing: border-box;}
+.roomtype ul.roomtypeTab li:first-child a {border: none;}
+.roomtype ul.roomtypeTab li a b {display: block; font-size:20px; font-weight: 800;}
+
+.roomtype .roomView .roomName h1 {font-size:35px; font-weight: 800; margin-bottom: 30px;}
+.roomtype .roomView .roomName h1 span {font-weight: 300; font-size: 20px;}
+.roomtype .roomView .roomName h1 p {font-size:12px; margin-top: 5px; font-weight: 400;}
+.roomtype .roomView .roomName h2 {word-break: keep-all; box-sizing: border-box; padding: 0 30px; font-size:18px; line-height:28px;}
+.roomtype .roomView .room_img {box-sizing:border-box; border: 1px solid #ad8e6c; padding: 10px;}
+.roomtype .roomView .room_img img {width: 100%; height: auto;}
+
+.interior .bx-wrapper {margin-bottom: 80px; box-sizing: border-box; border: 1px solid #ad8e6c; padding: 10px;}
+.interior .bx-wrapper .bx-pager.bx-default-pager a {background: #ad8e6c; margin: 0 3px; width:1px; height: 6px;}
+.interior .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {background: #fff;}
+
+.s01 p {font-size: 26px;}
+.hexaArea {padding: 30px 0;}
+.invitefloor {border-top: 1px solid #ad8e6c; margin-top: 30px;}
+.invitefloor dl {display: flex; border-bottom: 1px solid #ad8e6c; padding: 30px 0;}
+.invitefloor dl:last-child {padding: 30px 0 0 0; border: none;}
+.invitefloor dl dt {color:#ad8e6c; font-size: 40px; font-weight: 800; padding: 0 30px 0 0;}
+.invitefloor dl dd {color:#fff; font-size:  20px; word-break: keep-all;}
+
+.overView {}
+.overView dl {border-top: 1px solid #ad8e6c; display: flex;justify-content: flex-start; margin-top: 10px;}
+.overView dl dt, .overView dl dd {padding:10px 0 0 0;}
+.overView dl dt {font-size:14px; color:#ad8e6c; font-weight: 800; flex-shrink: 0; width:80px}
+.overView dl dd {font-size:14px; color:#fff; flex-grow: 1;}

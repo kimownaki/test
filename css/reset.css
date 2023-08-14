@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {padding:0; margin:0; font-size:12px; font-family:'NanumSquare', '돋움', dotum, gulim,'굴림',arial, sans-serif; font-weight:400; color:#333;}
+img {vertical-align:top; border:none;}
+ul, li, dl, dt, dd, p, h1, h2, h3, h4, h5, p {margin:0; padding:0; list-style:none;}
+::selection {background-color:#e1c779; color: #fff; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);}
+::-moz-selection {background-color:#e1c779; color: #fff; text-shadow: 1px 1px 1px rgba(0,0,0,0.5);}
+
+a {color:#333; text-decoration:none;}
+a:link, a:visited {color:#333;}
+
+button {cursor:pointer; font-family:'NanumSquare';}
+label {cursor:pointer;}
+
+select {height:32px; border:1px solid #dbdbdb; padding:0 40px 0 10px !important; background:url(/img/sub/select_arrow.png) right 10px top 50% no-repeat; background-size:10px 6px;
+							-webkit-appearance: none;  /* 네이티브 외형 감추기 */
+							-moz-appearance: none;
+							appearance: none;
+							font-family: inherit;  /* 폰트 상속 */}
+select::-ms-expand {display:none;}
+
+input[type="text"], input[type="password"] {height:30px; line-height:30px; color:#555; font-size:11px; box-sizing:border-box; padding:0 8px; border:1px solid #dbdbdb;
+-webkit-appearance: none;  /* 네이티브 외형 감추기 */
+							-moz-appearance: none;
+							appearance: none;
+							font-family: inherit;}
+							
+input[type="button"] {-webkit-appearance: none; -moz-appearance: none; appearance: none; font-family: inherit;}
